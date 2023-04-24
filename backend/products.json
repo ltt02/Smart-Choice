@@ -1,0 +1,54 @@
+{
+  "name": "iPhone X",
+  "description": "IM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 899,
+  "quantity": 34,
+  "image": "https://i.ibb.co/VgDp718/iphone-x.jpg"
+},
+{
+  "name": "iPhone 11",
+  "description": "Powerful, dual-camera, A13 chip, iOS, sleek design, innovative.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 650,
+  "quantity": 70,
+  "image": "src/images/iphone/iphone_11.jpg"
+},
+{
+  "name": "iPhone 12",
+  "description": "5G, A14 chip, OLED display, dual-camera, iOS 14.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 799,
+  "quantity": 50,
+  "image": "https://i.ibb.co/ZXgdfzj/iphone-12.jpg"
+},
+{
+  "name": "iPhone 12 mini",
+  "description": "Compact size, 5G, A14 chip, OLED display, dual-camera.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 699,
+  "quantity": 40,
+  "image": "https://i.ibb.co/YN4VHxn/iphone-12-mini.jpg"
+},
+{
+  "name": "iPhone 13 Pro",
+  "description": "Pro camera system, ProMotion display, A15 chip, 5G, iOS 15.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 999,
+  "quantity": 30,
+  "image": "https://i.ibb.co/Bt4Dx2v/iphone-13-pro.jpg"
+},
+{
+  "name": "iPhone 14 Pro",
+  "description": "Advanced features, A16 chip, OLED display, upgraded camera.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 1099,
+  "quantity": 20,
+  "image": "https://i.ibb.co/7Nr7yZK/iphone-14-pro.jpg"
+}

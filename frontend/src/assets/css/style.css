@@ -1,0 +1,411 @@
+:root {
+    --color-primary: #499cc8;
+}
+
+@media (min-width: 576px) {
+    .col-sm-2-4 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+
+    footer {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav-link.text-light {
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .col-sm-2-4 {
+        width: 50%;
+    }
+
+    #mynavbar .justify-content-end {
+        justify-content: unset !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .col-sm-2-4 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+
+    .col-sm-4 {
+        width: 100%;
+
+    }
+
+    .col-sm-8 {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .form-control.border-radius-only-start {
+        flex: 1;
+        width: 368px;
+    }
+
+    #mynavbar .justify-content-end {
+        justify-content: unset !important;
+    }
+
+    #mynavbar {
+        flex-direction: column-reverse;
+    }
+
+    .mt-130 {
+        margin-top: 146px !important;
+    }
+}
+
+
+@media (min-width: 990px) {
+    .col-sm-2-4 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 990px) {
+
+    .col-sm-8,
+    .col-sm-4 {
+        font-size: 0.9rem;
+    }
+
+    .col-sm-4 .fas {
+        font-size: 0.9rem;
+    }
+
+    .user-list-login {
+        position: relative;
+        top: 104px;
+        right: 103px;
+    }
+}
+
+
+@media (min-width: 991px) and (max-width: 1190px) {
+    .col-sm-8 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .user-list-login {
+        position: relative;
+        top: 106px;
+        right: 75px;
+    }
+}
+
+@media (max-width: 575px) {
+    footer {
+        display: none;
+    }
+
+    .side-banner {
+        display: none !important;
+    }
+
+    .user-list-login {
+        position: relative;
+        top: 262px;
+        right: 38px;
+    }
+}
+
+
+.border-radius-only-start {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.border-radius-only-end {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* .btn {
+    background-color: rgb(13, 92, 182);
+    border-color: rgb(13, 92, 182);
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #1969ba;
+    color: #fff;
+}
+*/
+.mr-0 {
+    margin-right: 0 !important;
+}
+
+.mr-4 {
+    margin-right: 4px !important;
+}
+
+.mr-12 {
+    margin-right: 12px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.ml-4 {
+    margin-left: 4px !important;
+}
+
+.ml-12 {
+    margin-left: 12px !important;
+}
+
+.ml-16 {
+    margin-left: 16px !important;
+}
+
+.ml-20 {
+    margin-left: 20px !important;
+}
+
+.ml-24 {
+    margin-left: 24px !important;
+}
+
+.ml-32 {
+    margin-left: 32px !important;
+}
+
+.ml-36 {
+    margin-left: 36px !important;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+/*
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * .25) !important;
+    padding-left: calc(var(--bs-gutter-x) * .25) !important;
+}
+
+body {
+    background-color: #f5f5fa;
+}
+
+.brand-img {
+    width: 40px;
+}
+
+.navbar {
+    background: var(--color-primary) !important;
+    font-size: 1.3rem !important;
+}
+
+.nav-item:hover .nav-link,
+.btn:hover i {
+    opacity: 0.8;
+}
+
+main {
+    min-height: 400px;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    /* {
+    filter: invert(100%);
+}
+
+.product-item {
+    transition: transform ease-in 0.1s;
+    will-change: transform;
+    cursor: pointer;
+}
+*/
+#mini-number {
+    color: white;
+    font-weight: 500;
+    top: 4px;
+    right: 0;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.product-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.product-item-name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    height: 3.2rem;
+}
+/*
+.ratings .rating-color {
+    color: yellow;
+}
+
+.like .like-color {
+    color: #f63d30;
+}
+
+.like .like-icon,
+.ratings .star-icon {
+    cursor: pointer;
+}
+*/
+/* .product-item_sale {
+    left: -3px;
+    bottom: 450px;
+} */
+
+.product-item_sale::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -3px;
+    filter: brightness(60%);
+    border-top: 3px solid rgba(var(--bs-danger-rgb), var(--bs-bg-opacity));
+    border-left: 3px solid transparent;
+}
+
+footer {
+    background: #fff !important;
+}
+
+.footer-item:hover .footer-item_link {
+    opacity: 0.6;
+}
+/*
+.chat-img {
+    z-index: 100;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat-img:hover .chatbox {
+    display: block;
+}
+
+.product-item {
+    min-height: 476px !important;
+}
+
+.product-item--laptop {
+    min-height: 430px !important;
+}
+
+.chatbox {
+    z-index: 1001;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: 400px;
+    display: none;
+}
+
+.chabox-header {
+    background-color: #499cc8;
+}
+
+.minimize-icon {
+    cursor: pointer;
+}
+
+.chatbox-body {
+    height: 350px;
+    overflow: auto;
+}
+
+.user-avatar-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+    flex: none;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.keyword-container {
+    padding-top: 0.1rem !important;
+    font-size: 1.6rem;
+}
+
+.user-list-login {
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 0 5px;
+} */
