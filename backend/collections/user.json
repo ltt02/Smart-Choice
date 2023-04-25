@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "643e5dc599476e86e86c018b"
+  },
+  "username": "taichodien",
+  "email": "tai@example.com",
+  "password": "$2b$08$T2bmOMEYfklo3vzsDS/whOcK.m55eQg/k9evaYY4PFmChy0RF3peq",
+  "shippingAddress": "Can Tho",
+  "refreshToken": "bD7ev9d1sU9uqeiwBZaMiB8CcsaGgL"
+},{
+  "_id": {
+    "$oid": "643ec24cb3eeca57add35c2a"
+  },
+  "username": "taichodien123",
+  "email": "tai123@example.com",
+  "password": "$2b$08$oM6W7Z/VKmQyu.M1dq9FLuC3z2k5ruqqlQ2mbblz64KdywmvVLG.6",
+  "shippingAddress": "Dong Thap",
+  "cartId": {
+    "$oid": "643ec24cb3eeca57add35c2b"
+  }
+},{
+  "_id": {
+    "$oid": "644242f8d9a5d659bf57c031"
+  },
+  "username": "uchihahaha",
+  "email": "obito@example.com",
+  "password": "$2b$08$RjmNREHM.NYlyXkX4ZqvmOSJBmGJiuUGNs8uw0e60FHwOLUcqcpFy",
+  "shippingAddress": "Konoha",
+  "cartId": {
+    "$oid": "644242f8d9a5d659bf57c032"
+  }
+},{
+  "_id": {
+    "$oid": "64424bd9d9a5d659bf57c033"
+  },
+  "username": "kisame",
+  "email": "kisame@example.com",
+  "password": "$2b$08$5pZjt7xhMTmgeifLFZ/u0OwE8KR4gRb0GSHubRGlfox2WbNhV9kcy",
+  "shippingAddress": "Akatsuki",
+  "cartId": {
+    "$oid": "64424bd9d9a5d659bf57c034"
+  }
+},{
+  "_id": {
+    "$oid": "644265c3fc38e146301e6209"
+  },
+  "username": "hidan",
+  "email": "hidan@example.com",
+  "password": "$2b$08$ZKKu8y7.BeJS99FTy38Q4udHrwtjFkuVNhz9vn8.xKSVB8R2VXk3a",
+  "shippingAddress": "Akatsuki",
+  "cartId": {
+    "$oid": "644265c3fc38e146301e620a"
+  },
+  "refreshToken": "2QHEGH7nvnaDONUnkK74JqXCgVLiYB"
+},{
+  "_id": {
+    "$oid": "64426e99fc38e146301e6211"
+  },
+  "username": "itachi123",
+  "email": "itachi@gmail.com",
+  "password": "$2b$08$P.YIUfi1DcLY3MPM2RbPCODH9IiDCGkRjbNKcRyKjwdlyPW9nceU.",
+  "shippingAddress": "Akatsuki",
+  "cartId": {
+    "$oid": "64426e99fc38e146301e6212"
+  },
+  "refreshToken": "XbZndgshxUXA96FTAktbs4k37L1QbM",
+  "isAdmin": "true"
+},{
+  "_id": {
+    "$oid": "6447b16ad342fa4d0f3dbefb"
+  },
+  "username": "lytantai03",
+  "email": "lytantai03@gmail.com",
+  "password": "$2b$08$AA05fSmhIIz2cs89nvYRHOrcBqPEqZjKyDz5ProNarF9/toKaMGhK",
+  "shippingAddress": "Can Tho",
+  "cartId": {
+    "$oid": "6447b16ad342fa4d0f3dbefc"
+  },
+  "refreshToken": "86GPxOFcB2VwQO1HzDkKdthwRD6ETc"
+},{
+  "_id": {
+    "$oid": "6447b7fed342fa4d0f3dbefd"
+  },
+  "username": "admin123",
+  "email": "admin@gmail.com",
+  "password": "$2b$08$CjmIsyt7ckKeWwdai5fM4u5W5YeYLhuwySaz7reBNZrIOvC7ON5Ei",
+  "shippingAddress": "TPHCM",
+  "cartId": {
+    "$oid": "6447b7fed342fa4d0f3dbefe"
+  },
+  "isAdmin": "true",
+  "refreshToken": "vXs05usF0iBkIVoJENO0RA4kcoDhrb"
+}]

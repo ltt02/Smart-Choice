@@ -19,18 +19,18 @@ import AppFooter from "@/components/AppFooter.vue";
 
       <div class="row members-list">
         <div class="col col-third s-col-full mt-32 text-center">
-          <p class="member-name">Name</p>
+          <p class="member-name">Cole Turner</p>
           <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="Name" class="member-img">
         </div>
 
         <div class="col col-third s-col-full mt-32 text-center">
-          <p class="member-name">Name</p>
-          <img src="https://xsgames.co/randomusers/avatar.php?g=female" alt="Name" class="member-img">
+          <p class="member-name">Ly Tan Tai</p>
+          <img src="https://i.ibb.co/4F9XW1w/c4a9d1318ef460aa39e5.jpg" alt="Name" class="member-img">
         </div>
 
         <div class="col col-third s-col-full mt-32 text-center">
-          <p class="member-name">Name</p>
-          <img src="https://xsgames.co/randomusers/avatar.php?g=pixel" alt="Name" class="member-img">
+          <p class="member-name">Sadie Rhodes</p>
+          <img src="https://xsgames.co/randomusers/avatar.php?g=female" alt="Name" class="member-img">
         </div>
 
       </div>

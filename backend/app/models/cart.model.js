@@ -20,9 +20,10 @@ class CartModel {
     }
 
     async getCartList(_cartId) {
-        return await this.Cart.findOne({
+        const result = await this.Cart.findOne({
             _id: new ObjectId(_cartId),
-        }).products;
+        });
+        return result.products;
     }
 
     async create(payload) {

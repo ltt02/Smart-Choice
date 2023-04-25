@@ -1,0 +1,253 @@
+[{
+  "_id": {
+    "$oid": "6441639a98dd4b13bd37d9ca"
+  },
+  "name": "iPhone X",
+  "description": "IM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 899,
+  "quantity": 34,
+  "image": "https://i.ibb.co/VgDp718/iphone-x.jpg",
+  "salePercent": "40"
+},{
+  "_id": {
+    "$oid": "644163b398dd4b13bd37d9cb"
+  },
+  "name": "iPhone 11",
+  "description": "Powerful, dual-camera, A13 chip, iOS, sleek design, innovative.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": "651",
+  "quantity": 70,
+  "image": "https://i.ibb.co/MkyCbxk/iphone-11.jpg",
+  "salePercent": "46"
+},{
+  "_id": {
+    "$oid": "644163c798dd4b13bd37d9cc"
+  },
+  "name": "iPhone 12",
+  "description": "5G, A14 chip, OLED display, dual-camera, iOS 14.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 799,
+  "quantity": "49",
+  "image": "https://i.ibb.co/ZXgdfzj/iphone-12.jpg",
+  "salePercent": "87"
+},{
+  "_id": {
+    "$oid": "644163d598dd4b13bd37d9cd"
+  },
+  "name": "iPhone 12 mini",
+  "description": "Compact size, 5G, A14 chip, OLED display, dual-camera.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": "700",
+  "quantity": "41",
+  "image": "https://i.ibb.co/YN4VHxn/iphone-12-mini.jpg",
+  "salePercent": "32"
+},{
+  "_id": {
+    "$oid": "644163e598dd4b13bd37d9ce"
+  },
+  "name": "iPhone 13 Pro",
+  "description": "Pro camera system, ProMotion display, A15 chip, 5G, iOS 15.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 999,
+  "quantity": 30,
+  "image": "https://i.ibb.co/Bt4Dx2v/iphone-13-pro.jpg",
+  "salePercent": "30"
+},{
+  "_id": {
+    "$oid": "644163f298dd4b13bd37d9cf"
+  },
+  "name": "iPhone 14 Pro",
+  "description": "Advanced features, A16 chip, OLED display, upgraded camera.",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": 1099,
+  "quantity": "25",
+  "image": "https://i.ibb.co/7Nr7yZK/iphone-14-pro.jpg",
+  "salePercent": "14"
+},{
+  "_id": {
+    "$oid": "644350741ccb44981280a38b"
+  },
+  "name": "Samsung Galaxy S22",
+  "description": "Powerful, AMOLED display, high-quality camera, flagship performance.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 899,
+  "quantity": "51",
+  "image": "https://i.ibb.co/8N8b5Bj/Galaxy-S22-Black-600x600.jpg",
+  "salePercent": "10"
+},{
+  "_id": {
+    "$oid": "644350b61ccb44981280a38c"
+  },
+  "name": "Samsung Galaxy S22 Plus",
+  "description": "Large display, improved camera, 5G connectivity, premium design.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 999,
+  "quantity": 40,
+  "image": "https://i.ibb.co/YWZ7qfd/Galaxy-S22-Plus-White-600x600.jpg",
+  "salePercent": "5"
+},{
+  "_id": {
+    "$oid": "644350c91ccb44981280a38d"
+  },
+  "name": "Samsung Galaxy S22 Ultra",
+  "description": "High-end features, massive display, top-of-the-line camera, ultimate performance.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 1199,
+  "quantity": "32",
+  "image": "https://i.ibb.co/PtRzVvb/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+  "salePercent": "15"
+},{
+  "_id": {
+    "$oid": "644351191ccb44981280a38e"
+  },
+  "name": "Samsung Galaxy A13",
+  "description": "Affordable, reliable, decent camera, long-lasting battery.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 299,
+  "quantity": 80,
+  "image": "https://i.ibb.co/z24vMkd/Samsung-Galaxy-A13-cam-thumb-600x600.jpg",
+  "salePercent": "8"
+},{
+  "_id": {
+    "$oid": "644351301ccb44981280a38f"
+  },
+  "name": "Samsung Galaxy A23",
+  "description": "Mid-range device, AMOLED display, powerful processor, versatile camera.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 399,
+  "quantity": 60,
+  "image": "https://i.ibb.co/mHg8mVr/sam-sung-galaxy-a23-5g-xanh-thumb-600x600.jpg",
+  "salePercent": "12"
+},{
+  "_id": {
+    "$oid": "644351531ccb44981280a390"
+  },
+  "name": "Samsung Galaxy S73 5G",
+  "description": "Flagship, 5G connectivity, advanced camera system, cutting-edge features.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 1299,
+  "quantity": 25,
+  "image": "https://i.ibb.co/DLZSvhP/samsung-galaxy-a73-5g-xanh-thumb-600x600.jpg",
+  "salePercent": "20"
+},{
+  "_id": {
+    "$oid": "6443538f1ccb44981280a391"
+  },
+  "name": "Xiaomi Redmi 10",
+  "description": "High-performance, affordable, versatile, large display, impressive camera.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 199,
+  "quantity": 50,
+  "image": "https://i.ibb.co/P1V9B4W/redmi-10-gray-600x600.jpg",
+  "salePercent": 10
+},{
+  "_id": {
+    "$oid": "6443540d1ccb44981280a392"
+  },
+  "name": "Xiaomi 11 Lite 5G",
+  "description": "Slim and lightweight, powerful performance, AMOLED display, premium design.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 329,
+  "quantity": 30,
+  "image": "https://i.ibb.co/Pcr1YpL/xiaomi-11-lite-5g-ne-black-600x600.jpg",
+  "salePercent": 5
+},{
+  "_id": {
+    "$oid": "644354461ccb44981280a393"
+  },
+  "name": "Xiaomi 11T",
+  "description": "Flagship-level performance, high-refresh-rate display, versatile camera system.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 499,
+  "quantity": 20,
+  "image": "https://i.ibb.co/9m5MCtg/Xiaomi-11-T-White-1-2-3-600x600.jpg",
+  "salePercent": 8
+},{
+  "_id": {
+    "$oid": "6443546a1ccb44981280a394"
+  },
+  "name": "Xiaomi 12T Pro",
+  "description": "Cutting-edge technology, flagship features, premium build, advanced camera.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 799,
+  "quantity": 10,
+  "image": "https://i.ibb.co/vk9JXH0/xiaomi-12t-pro-thumb-den-1-600x600.jpg",
+  "salePercent": 15
+},{
+  "_id": {
+    "$oid": "6443548c1ccb44981280a395"
+  },
+  "name": "Xiaomi 12",
+  "description": "Next-gen performance, high-quality display, advanced camera capabilities.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 699,
+  "quantity": 15,
+  "image": "https://i.ibb.co/wNTYYGK/Xiaomi-12-xam-thumb-mau-600x600.jpg",
+  "salePercent": 12
+},{
+  "_id": {
+    "$oid": "644354ab1ccb44981280a396"
+  },
+  "name": "Xiaomi Redmi 9C",
+  "description": "Affordable, reliable performance, long battery life, multiple cameras.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 129,
+  "quantity": 25,
+  "image": "https://i.ibb.co/F6QtjQ1/xiaomi-redmi-9c-4gb-xanh-1-600x600.jpg",
+  "salePercent": 7
+},{
+  "_id": {
+    "$oid": "644354c91ccb44981280a397"
+  },
+  "name": "Xiaomi Redmi 10C",
+  "description": "Budget-friendly, large display, decent performance, reliable camera.",
+  "category": "smartphones",
+  "brand": "Xiaomi",
+  "price": 149,
+  "quantity": 35,
+  "image": "https://i.ibb.co/q9FZkVB/xiaomi-redmi-10c-xanh-luc-thumb-600x600.jpg",
+  "salePercent": 6
+},{
+  "_id": {
+    "$oid": "6443557e1ccb44981280a398"
+  },
+  "name": "Samsung Galaxy Z Fold 4",
+  "description": "Foldable design, powerful performance, advanced camera features.",
+  "category": "smartphones",
+  "brand": "Samsung",
+  "price": 1999,
+  "quantity": 10,
+  "image": "https://i.ibb.co/TYqVqj8/samsung-galaxy-z-fold4-kem-256gb-600x600.jpg",
+  "salePercent": 0
+},{
+  "_id": {
+    "$oid": "64448f7d37f60c2715749595"
+  },
+  "name": "iPhone 15",
+  "description": "abc",
+  "category": "smartphones",
+  "brand": "Apple",
+  "price": "5000",
+  "quantity": "50",
+  "salePercent": "25",
+  "image": "https://i.ibb.co/VgDp718/iphone-x.jpg"
+}]

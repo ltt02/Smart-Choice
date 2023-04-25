@@ -2,7 +2,6 @@
 import AppHeader from "@/components/AppHeader.vue";
 import AppFooter from "@/components/AppFooter.vue";
 import Carousel from "@/components/Carousel.vue";
-import ProductList from "@/components/ProductList.vue";
 import ProductCard from "@/components/ProductCard.vue";
 import AdminView from "@/views/AdminView.vue";
 import ProductService from "@/services/product.service";
@@ -14,7 +13,6 @@ export default {
   components: {
     AppHeader,
     Carousel,
-    ProductList,
     ProductCard,
     AppFooter,
     AdminView

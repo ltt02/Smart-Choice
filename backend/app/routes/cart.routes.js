@@ -4,9 +4,10 @@ const cart = require('../controllers/cart.controller');
 const router = express.Router();
 
 router.route("/")
-    .get(cart.getAllProducts)
     .post(cart.addToCart)
     .delete(cart.removeFromCart)
-    // .put(cart.update)
+// .put(cart.update)
+router.route("/:id")
+    .get(cart.getAllProducts)
 
 module.exports = router;

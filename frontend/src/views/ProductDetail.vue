@@ -49,7 +49,7 @@ export default {
                 <h3>{{ product.name }}</h3>
                 <img :src="product.image" style="width: 500px" alt="">
             </div>
-            <div class="col-sm-6 pt-3 shadow rounded h-50">
+            <div class="col-sm-6 pt-3 pb-3 shadow rounded h-50">
                 <h3>Product detail:</h3>
                 <hr>
                 <p>
@@ -67,7 +67,9 @@ export default {
                 </p>
                 <p>
                     <span class="fw-bold">You save: </span>
-                    <span class="text-danger">${{ product.price * product.salePercent / 100 }} ({{ product.salePercent }}%)</span></p>
+                    <span class="text-danger">${{ product.price * product.salePercent / 100 }} ({{ product.salePercent
+                    }}%)</span>
+                </p>
                 <p>
                     <span class="fw-bold">Brand: </span>
                     <span class="text-dark">
@@ -80,7 +82,13 @@ export default {
                         {{ product.description }}
                     </span>
                 </p>
+                <div class="d-flex justify-content-center align-items-center p-0 cart">
+                    <a type="button" href="" class="btn btn-light float-end col-6 shadow">
+                        <i class="fas fa-shopping-basket text-danger"></i>
+                    </a>
+                </div>
             </div>
+
         </div>
     </div>
 

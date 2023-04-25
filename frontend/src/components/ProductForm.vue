@@ -2,7 +2,7 @@
     <div class="product-form container container-fluid p-0 mt-5">
         <div class="product-form-container rounded shadow">
             <h3 class="text-center">Product</h3>
-            <Form @submit="submitProduct" :validation-schema="ProductFormSchema">
+            <Form @submit="submitProduct" :validation-schema="productFormSchema">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <Field name="name" type="text" class="form-control" v-model="productLocal.name" />
@@ -85,17 +85,31 @@ export default {
         const productFormSchema = yup.object().shape({
             name: yup
                 .string()
-                .required("Tên phải có giá trị")
-                .min(2, "Tên phải ít nhất 2 ký tự")
-                .max(50, "Tên có nhiều nhất 50 ký tự"),
-            email: yup
+                .required("Name is required"),
+            description: yup
                 .string()
-                .email("Email không đúng")
-                .max(50, "Email tối đa 50 ký tự"),
-            address: yup.string().max(100, "Địa chỉ tối đa 100 ký tự"),
-            phone: yup
+                .required("Description is required"),
+            category: yup
                 .string()
-                .matches(/((09|03|07|08|05)+([0-9]{8})\b)/g, "Số điện thoại không hợp lệ"),
+                .required("Category is required"),
+            brand: yup
+                .string()
+                .required("Brand is required"),
+            price: yup
+                .string()
+                .required("Price is required")
+                .matches(/^-?\d+(\.\d+)?$/),
+            quantity: yup
+                .string()
+                .required("Quantity is required")
+                .matches(/^-?\d+(\.\d+)?$/),
+            image: yup
+                .string()
+                .required("Image URL is required"),
+            salePercent: yup
+                .string()
+                .required("Sale percent is required")
+                .matches(/^-?\d+(\.\d+)?$/),
         });
         return {
             productLocal: this.product,

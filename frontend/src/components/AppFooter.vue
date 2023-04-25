@@ -122,7 +122,7 @@
                     </ul>
                 </div>
 
-                <p class="copyright text-center mb-0 text-light">© 2023 - Copyright</p>
+                <p class="copyright text-center mb-0 text-light">Copyright © 2023 - Made by Ly Tan Tai</p>
             </div>
         </div>
 

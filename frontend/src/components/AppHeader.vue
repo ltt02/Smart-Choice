@@ -52,7 +52,10 @@ export default {
                     <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
                 </form>
                 <ul class="navbar-nav ms-2">
-                    <li class="nav-item">
+                    <li v-if="userStore.currentUser" class="nav-item">
+                        <img src="https://i.ibb.co/4F9XW1w/c4a9d1318ef460aa39e5.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%;cursor: pointer;">
+                    </li>
+                    <li v-else class="nav-item">
                         <router-link :to="{ name: 'login' }" class="nav-link" href="#"><i
                                 class="fas fa-user"></i></router-link>
                     </li>

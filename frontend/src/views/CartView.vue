@@ -1,5 +1,6 @@
 <script setup>
 import AppHeader from "@/components/AppHeader.vue";
+import AppFooter from "@/components/AppFooter.vue";
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import AppHeader from "@/components/AppHeader.vue";
   <div class="products container">
     <h1>This is a cart page</h1>
   </div>
+  <AppFooter/>
 </template>
 
 <style>
